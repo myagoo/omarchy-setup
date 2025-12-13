@@ -1,3 +1,5 @@
 alias ll='lsa'
 alias lll='lta'
-alias kll='journalctl -u kanata.service -o cat -f'
+alias kanastart='sudo systemctl start kanata.service'
+alias kanastop='sudo systemctl stop kanata.service'
+alias kanalog='journalctl -u kanata.service -o cat -f'

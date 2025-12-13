@@ -36,7 +36,7 @@
 (deflayer base
   _    _    _    _    _    _    _    _    _    _    _
   q    w    @ee  @rr  t         y    u    @ii  @oo  p
-  @am  @sa  @ds  @fc  g         h    @jc  @ks  @la  @;m
+  @ac  @sa  @dm  @fs  g         h    @js  @km  @la  @;c
   z    x    @cc  @vv  b    <    @nn  @mm  ,    .    /
             _             @nav            @sym
 )
@@ -70,14 +70,14 @@
   sym (layer-while-held symbols)
 
   ;; Home-row mods
-  am (t! homerow a lmet)
+  ac (t! homerow a lctl)
   sa (t! homerow s lalt)
-  ds (t! homerow d lsft)
-  fc (t! homerow f lctl)
-  jc (t! homerow j lctl)
-  ks (t! homerow k lsft)
+  dm (t! homerow d lmet)
+  fs (t! homerow f lsft)
+  js (t! homerow j lsft)
+  km (t! homerow k lmet)
   la (t! homerow l lalt)
-  ;m (t! homerow ; lmet)
+  ;c (t! homerow ; lctl)
 )
 
 ;;-----------------------------------------------------------------------------
